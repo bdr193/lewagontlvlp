@@ -169,6 +169,7 @@ img::-moz-selection {
 }
 
 header.masthead {
+  position: relative;
   text-align: center;
   color: white;
   background-image: url("../img/tel-aviv.jpg");
@@ -181,18 +182,20 @@ header.masthead {
   background-size: cover;
 }
 
-/* header.masthead::after {
-display: block;
-position: relative;
-background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-margin-top: -150px;
-height: 150px;
-width: 100%;
-content: '';
-} */
+header.masthead:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,#002f4b,#F27F03);
+  opacity: 0.3;
+}
 
 
 header.masthead .intro-text {
+  position: relative;
   padding-top: 150px;
   padding-bottom: 100px;
 }
