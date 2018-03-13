@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 p {
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 section {
@@ -59,7 +59,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
   font-weight: 700;
 }
 
@@ -113,7 +113,7 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #D23333;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 #mainNav .navbar-brand {
@@ -131,7 +131,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -213,7 +213,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 @media (min-width: 768px) {
@@ -233,7 +233,7 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Avenir;
   }
 }
 
@@ -487,7 +487,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 footer ul.quicklinks {
@@ -495,7 +495,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Avenir;
 }
 
 ul.social-buttons {
@@ -519,4 +519,43 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #D23333;
+}
+
+
+@font-face {
+  font-family: "Avenir";
+  src: font-url('fonts/AvenirLight.eot');
+  src: font-url('fonts/AvenirLight.eot?#iefix') format('embedded-opentype'),
+  font-url('fonts/AvenirLight.woff') format('woff'),
+  font-url('fonts/AvenirLight.woff2') format('woff2'),
+  font-url('fonts/AvenirLight.ttf') format('truetype');
+  font-weight: $font-weight-light;
+}
+@font-face {
+  font-family: "Avenir";
+  src: font-url('fonts/AvenirMedium.eot');
+  src: font-url('fonts/AvenirMedium.eot?#iefix') format('embedded-opentype'),
+  font-url('fonts/AvenirMedium.woff') format('woff'),
+  font-url('fonts/AvenirMedium.woff2') format('woff2'),
+  font-url('fonts/AvenirMedium.ttf') format('truetype');
+  font-weight: $font-weight-normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: font-url('fonts/AvenirBold.eot');
+  src: font-url('fonts/AvenirBold.eot?#iefix') format('embedded-opentype'),
+  font-url('fonts/AvenirBold.woff') format('woff'),
+  font-url('fonts/AvenirBold.woff2') format('woff2'),
+  font-url('fonts/AvenirBold.ttf') format('truetype');
+  font-weight:  $font-weight-bold;
+}
+@font-face {
+  font-family: "Avenir";
+  src: font-url('fonts/AvenirMediumItalic.eot');
+  src: font-url('fonts/AvenirMediumItalic.eot?#iefix') format('embedded-opentype'),
+  font-url('fonts/AvenirMediumItalic.woff') format('woff'),
+  font-url('fonts/AvenirMediumItalic.woff2') format('woff2'),
+  font-url('fonts/AvenirMediumItalic.ttf') format('truetype');
+  font-style: italic;
 }
